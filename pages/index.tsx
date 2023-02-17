@@ -10,7 +10,7 @@ export default function Home() {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main className='m-4'>
+			<main className='col-span-9 m-4 min-h-screen'>
 				<h1 className='mb-4 text-4xl'>Your Journal</h1>
 				<EntryForm />
 			</main>
